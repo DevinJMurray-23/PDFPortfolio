@@ -1,0 +1,80 @@
+body
+{
+  background-color: #1D27CB;
+  font-family: "Proxima Nova", sans-serif;
+  text-align: center;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  color: #666666;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+p
+{
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+.MajorTitle
+{
+  color: #666666;
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  font-size: 8rem;
+  font-style: normal;
+}
+
+
+  .container-fluid
+  {
+    padding: 7% 10%;
+  }
+
+/******************** COVER PAGE ********************/
+
+  #Cover
+  {
+    background-color: #1D27CB;
+    background-image: url(DevinJMurray.jpg);
+		background-position: center center;
+		background-size: cover;
+    min-height: 100vh;
+    position: relative;
+	 }
+
+      #Cover h2
+      {
+          font-size: 2rem;
+          font-weight: 300;
+      }
+
+      #Cover h3
+      {
+          font-size: 1rem;
+          font-weight: 400;
+      }
+
+          .title
+          {
+            padding: 20% 0 0 0;
+          }
+
+          .btn
+          {
+            background-color: #1D27CB;
+            border-radius: 0px;
+            font-family: 'Teko', sans-serif;
+            font-size: 1.75rem;
+            padding: 1rem 3rem;
+          }
+
+                .btn:hover
+                {
+                  background-color: #0d1e82;
+                }
